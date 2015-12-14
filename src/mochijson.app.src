@@ -1,11 +1,12 @@
 {application, mochijson,
- [
-  {description, ""},
-  {vsn, "1"},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {env, []}
- ]}.
+[
+    {description, "an otp approach to working with streaming json"},
+    {vsn, "v2.12.2"},
+    {modules, [mochijson2]},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
